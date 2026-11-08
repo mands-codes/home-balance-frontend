@@ -1,0 +1,20 @@
+.app {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.app button {
+  padding: 0.6rem 1.2rem;
+  font: inherit;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.app button:focus-visible {
+  outline: 2px solid #3b6fd4;
+  outline-offset: 2px;
+}
